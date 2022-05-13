@@ -1,0 +1,60 @@
+body {
+    background-color: #090909;
+    color: #ffffff;
+}
+
+.game-title {
+    font-size: 3rem;
+    color: #ffffff;
+    margin-bottom: 1rem;
+    font-weight: bold;
+}
+
+.flex-center {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.column {
+    flex-direction: column;
+}
+
+.game-tile {
+    width: 3rem;
+    height: 3rem;
+    font-size: 2.5rem;
+    font-weight: bold;
+    margin: 3px;
+    border: 2px solid transparent;
+}
+
+.game-tile.good {
+    background-color: #009933;
+}
+
+.game-tile.used {
+    background-color: #ff9933;
+}
+
+.game-tile.none {
+    background-color: #4d4d4d;
+}
+
+.game-tile.blank {
+    border: 2px #ffffff solid;
+}
+
+.messages {
+    min-height: 60px;
+}
+.container {
+    display: flex;
+    justify-content: center;
+    padding: 16px;
+}
+
+.container.invalid-word {
+    color: red;
+}
+
